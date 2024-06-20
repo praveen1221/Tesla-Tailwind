@@ -11,7 +11,7 @@
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
-    "build": "postcss src/main.css -o dist/main.css && copyfiles src/index.html dist/index.html",
+    "build": "postcss src/main.css -o dist/main.css && copyfiles src/index.html dist",
     "watch": "postcss src/main.css -o dist/main.css -w"
   },
   "keywords": [],
