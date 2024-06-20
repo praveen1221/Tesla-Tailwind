@@ -10,7 +10,7 @@
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
-    "build": "postcss src/main.css -o dist/main.css",
+    "build": "postcss src/main.css -o dist/main.css && copy src\\index.html dist\\index.html",
     "watch": "postcss src/main.css -o dist/main.css -w"
   },
   "keywords": [],
