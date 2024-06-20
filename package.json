@@ -11,8 +11,9 @@
     "tailwindcss": "^3.4.4"
   },
   "scripts": {
-    "build": "postcss src/main.css -o dist/main.css && cp src/index.html dist/index.html",
-    "watch": "postcss src/main.css -o dist/main.css -w"
+    "build": "postcss src/main.css -o dist/main.css && cp src/index.html dist/index.html && npm run copy:images",
+    "watch": "postcss src/main.css -o dist/main.css -w",
+    "copy:images": "cp -r src/images dist/"
   },
   "keywords": [],
   "author": "",
